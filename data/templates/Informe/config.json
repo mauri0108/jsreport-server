@@ -1,0 +1,21 @@
+{
+    "shortid": "Syi75tzSG",
+    "recipe": "phantom-pdf",
+    "engine": "handlebars",
+    "modificationDate": {
+        "$$date": 1516588443920
+    },
+    "_id": "n7FoAl0y0RGLylgo",
+    "data": {
+        "shortid": "SyDv5YzSz"
+    },
+    "resources": {
+        "defaultLanguage": "es",
+        "items": [
+            {
+                "shortid": "SyDv5YzSz",
+                "entitySet": "data"
+            }
+        ]
+    }
+}

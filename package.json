@@ -1,0 +1,6 @@
+{
+  "name": "jsreport-server",
+  "dependencies": {
+    "jsreport": "^1.9.2"
+  }
+}
