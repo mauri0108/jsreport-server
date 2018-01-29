@@ -11,7 +11,7 @@
       "username": "admin",
       "password": "admin"
     },
-    "enabled": true
+    "enabled": false
   },
   "connectionString": {
     "name": "fs"

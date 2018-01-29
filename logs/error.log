@@ -58,3 +58,61 @@ Error: Unsupported module in scripts: http. To enable require on particular modu
     at emitTwo (events.js:126:13)
     at process.emit (events.js:214:7)
     at emit (internal/child_process.js:772:12)
+2018-01-28T20:47:37.825Z - error: Error when processing render request Error during rendering report: Unauthorized Error: Unauthorized
+    at EmbeddedCollection.<anonymous> (C:\Users\Mauricio\Desktop\dominaeco\jsreport-server\node_modules\jsreport-public-templates\lib\main.js:257:19)
+    at C:\Users\Mauricio\Desktop\dominaeco\jsreport-server\node_modules\jsreport-fs-store\node_modules\listener-collection\lib\listenerCollection.js:171:33
+    at C:\Users\Mauricio\Desktop\dominaeco\jsreport-server\node_modules\jsreport-fs-store\node_modules\listener-collection\lib\listenerCollection.js:151:16
+    at tryCatcher (C:\Users\Mauricio\Desktop\dominaeco\jsreport-server\node_modules\jsreport-fs-store\node_modules\listener-collection\node_modules\bluebird\js\release\util.js:16:23)
+    at Promise._settlePromiseFromHandler (C:\Users\Mauricio\Desktop\dominaeco\jsreport-server\node_modules\jsreport-fs-store\node_modules\listener-collection\node_modules\bluebird\js\release\promise.js:510:31)
+    at Promise._settlePromise (C:\Users\Mauricio\Desktop\dominaeco\jsreport-server\node_modules\jsreport-fs-store\node_modules\listener-collection\node_modules\bluebird\js\release\promise.js:567:18)
+    at Promise._settlePromise0 (C:\Users\Mauricio\Desktop\dominaeco\jsreport-server\node_modules\jsreport-fs-store\node_modules\listener-collection\node_modules\bluebird\js\release\promise.js:612:10)
+    at Promise._settlePromises (C:\Users\Mauricio\Desktop\dominaeco\jsreport-server\node_modules\jsreport-fs-store\node_modules\listener-collection\node_modules\bluebird\js\release\promise.js:691:18)
+    at Async._drainQueue (C:\Users\Mauricio\Desktop\dominaeco\jsreport-server\node_modules\jsreport-fs-store\node_modules\listener-collection\node_modules\bluebird\js\release\async.js:133:16)
+    at Async._drainQueues (C:\Users\Mauricio\Desktop\dominaeco\jsreport-server\node_modules\jsreport-fs-store\node_modules\listener-collection\node_modules\bluebird\js\release\async.js:143:10)
+    at Immediate.Async.drainQueues (C:\Users\Mauricio\Desktop\dominaeco\jsreport-server\node_modules\jsreport-fs-store\node_modules\listener-collection\node_modules\bluebird\js\release\async.js:17:14)
+    at runCallback (timers.js:789:20)
+    at tryOnImmediate (timers.js:751:5)
+    at processImmediate [as _immediateCallback] (timers.js:722:5) requestId=1
+2018-01-28T21:01:18.347Z - error: Error when processing render request Error during rendering report: Unauthorized Error: Unauthorized
+    at EmbeddedCollection.<anonymous> (C:\Users\Mauricio\Desktop\dominaeco\jsreport-server\node_modules\jsreport-public-templates\lib\main.js:257:19)
+    at C:\Users\Mauricio\Desktop\dominaeco\jsreport-server\node_modules\jsreport-fs-store\node_modules\listener-collection\lib\listenerCollection.js:171:33
+    at C:\Users\Mauricio\Desktop\dominaeco\jsreport-server\node_modules\jsreport-fs-store\node_modules\listener-collection\lib\listenerCollection.js:151:16
+    at tryCatcher (C:\Users\Mauricio\Desktop\dominaeco\jsreport-server\node_modules\jsreport-fs-store\node_modules\listener-collection\node_modules\bluebird\js\release\util.js:16:23)
+    at Promise._settlePromiseFromHandler (C:\Users\Mauricio\Desktop\dominaeco\jsreport-server\node_modules\jsreport-fs-store\node_modules\listener-collection\node_modules\bluebird\js\release\promise.js:510:31)
+    at Promise._settlePromise (C:\Users\Mauricio\Desktop\dominaeco\jsreport-server\node_modules\jsreport-fs-store\node_modules\listener-collection\node_modules\bluebird\js\release\promise.js:567:18)
+    at Promise._settlePromise0 (C:\Users\Mauricio\Desktop\dominaeco\jsreport-server\node_modules\jsreport-fs-store\node_modules\listener-collection\node_modules\bluebird\js\release\promise.js:612:10)
+    at Promise._settlePromises (C:\Users\Mauricio\Desktop\dominaeco\jsreport-server\node_modules\jsreport-fs-store\node_modules\listener-collection\node_modules\bluebird\js\release\promise.js:691:18)
+    at Async._drainQueue (C:\Users\Mauricio\Desktop\dominaeco\jsreport-server\node_modules\jsreport-fs-store\node_modules\listener-collection\node_modules\bluebird\js\release\async.js:133:16)
+    at Async._drainQueues (C:\Users\Mauricio\Desktop\dominaeco\jsreport-server\node_modules\jsreport-fs-store\node_modules\listener-collection\node_modules\bluebird\js\release\async.js:143:10)
+    at Immediate.Async.drainQueues (C:\Users\Mauricio\Desktop\dominaeco\jsreport-server\node_modules\jsreport-fs-store\node_modules\listener-collection\node_modules\bluebird\js\release\async.js:17:14)
+    at runCallback (timers.js:789:20)
+    at tryOnImmediate (timers.js:751:5)
+    at processImmediate [as _immediateCallback] (timers.js:722:5) requestId=2
+2018-01-28T21:25:39.062Z - error: Error during processing request: http://localhost:5488/api/report details: Unexpected token 
+ in JSON at position 90 SyntaxError: Unexpected token 
+ in JSON at position 90
+    at JSON.parse (<anonymous>)
+    at parse (C:\Users\Mauricio\Desktop\dominaeco\jsreport-server\node_modules\body-parser\lib\types\json.js:88:17)
+    at C:\Users\Mauricio\Desktop\dominaeco\jsreport-server\node_modules\body-parser\lib\read.js:116:18
+    at invokeCallback (C:\Users\Mauricio\Desktop\dominaeco\jsreport-server\node_modules\raw-body\index.js:262:16)
+    at done (C:\Users\Mauricio\Desktop\dominaeco\jsreport-server\node_modules\raw-body\index.js:251:7)
+    at IncomingMessage.onEnd (C:\Users\Mauricio\Desktop\dominaeco\jsreport-server\node_modules\raw-body\index.js:307:7)
+    at emitNone (events.js:106:13)
+    at IncomingMessage.emit (events.js:208:7)
+    at endReadableNT (_stream_readable.js:1055:12)
+    at _combinedTickCallback (internal/process/next_tick.js:138:11)
+    at process._tickCallback (internal/process/next_tick.js:180:9)
+2018-01-28T21:27:24.743Z - error: Error during processing request: http://localhost:5488/api/report details: Unexpected token 
+ in JSON at position 90 SyntaxError: Unexpected token 
+ in JSON at position 90
+    at JSON.parse (<anonymous>)
+    at parse (C:\Users\Mauricio\Desktop\dominaeco\jsreport-server\node_modules\body-parser\lib\types\json.js:88:17)
+    at C:\Users\Mauricio\Desktop\dominaeco\jsreport-server\node_modules\body-parser\lib\read.js:116:18
+    at invokeCallback (C:\Users\Mauricio\Desktop\dominaeco\jsreport-server\node_modules\raw-body\index.js:262:16)
+    at done (C:\Users\Mauricio\Desktop\dominaeco\jsreport-server\node_modules\raw-body\index.js:251:7)
+    at IncomingMessage.onEnd (C:\Users\Mauricio\Desktop\dominaeco\jsreport-server\node_modules\raw-body\index.js:307:7)
+    at emitNone (events.js:106:13)
+    at IncomingMessage.emit (events.js:208:7)
+    at endReadableNT (_stream_readable.js:1055:12)
+    at _combinedTickCallback (internal/process/next_tick.js:138:11)
+    at process._tickCallback (internal/process/next_tick.js:180:9)
