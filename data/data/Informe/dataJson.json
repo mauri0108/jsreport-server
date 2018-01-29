@@ -1,39 +1,37 @@
 {
-    "_id": "",
+    "_id": "5a6f0e312ceec904246fd5e9",
     "institucion": "Instituto Domina",
-    "logo": "http://lorempixel.com/150/150/",
     "medico": "Domina Walter Ricardo",
     "paciente": "Lucero Mauricio Javier",
-    "infDetalle": {
-        "_id": "5a2ee67dd9258ae1786deb16",
+    "observacion": "No se observa nada raro",
+    "usuario": "5a69cbb9710bd01384d82795",
+    "fecha": "29-01-2018",
+    "__v": 0,
+    "logo": "5a6f0e312ceec904246fd5e9-223.png",
+    "detalle": {
+        "_id": "5a2e6778f1f55aeb22a874d0",
         "nombre": "Informe Abdominal",
-        "creado": "12-12-2017 21:12",
+        "creado": "18/12/2017 10:51",
         "items": [{
-            "_id": "5a5a587dc671bc0d40456f7b",
             "nombre": "Higado",
+            "_id": "5a438e398fd71a2214637fd4",
             "caracteristicas": [{
-                "_id": "5a5a587dc671bc0d40456f7d",
                 "nombre": "Contornos",
+                "_id": "5a438e398fd71a2214637fd6",
                 "opciones": ["Regulares", "Irregulares", "Lobulados", "?"]
             }, {
-                "_id": "5a5a587dc671bc0d40456f7c",
                 "nombre": "Volumetria",
+                "_id": "5a438e398fd71a2214637fd5",
                 "opciones": ["Normal", "Aumentado en forma difusa", "Aumentado a predominio de lobulo derecho", "Aumentado a predominio de lobulo izquierdo", "Hipertrofia selectiva del lobulo caudado", "Disminuido en forma global", "Disminuido, predominantemente lobulo izquierdo", "Disminuido, predominantemente lobulo derecho", "?"]
-            }, {
-                "nombre": "Estructura",
-                "_id": "5a5a650011923c04701ba7dd",
-                "opciones": ["Homogenea"]
             }]
         }, {
-            "_id": "5a5a587dc671bc0d40456f79",
             "nombre": "Prueba",
+            "_id": "5a5f4a05946beb1030fd22ed",
             "caracteristicas": [{
-                "_id": "5a5a587dc671bc0d40456f7a",
                 "nombre": "Caracteristica prueba",
-                "opciones": ["Opción Prueba"]
+                "_id": "5a5f4a05946beb1030fd22ee",
+                "opciones": ["Opcion prueba"]
             }]
         }]
-    },
-    "observacion": "Conclusion 1",
-    "creado": "21-01-2018"
+    }
 }

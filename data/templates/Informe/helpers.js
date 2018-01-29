@@ -6,3 +6,7 @@ function concatDescription(caracteristicas){
     });
     return stringFinal
 }
+
+function concatUrl(nombre) {
+    return 'http://localhost:3030/api/v1/img/'+ nombre
+}

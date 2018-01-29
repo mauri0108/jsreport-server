@@ -116,3 +116,5 @@ Error: Unsupported module in scripts: http. To enable require on particular modu
     at endReadableNT (_stream_readable.js:1055:12)
     at _combinedTickCallback (internal/process/next_tick.js:138:11)
     at process._tickCallback (internal/process/next_tick.js:180:9)
+2018-01-29T12:09:54.860Z - error: Error during processing request: http://localhost:5488/api/report details: Could not parse report template, aren't you missing content type? undefined
+2018-01-29T12:11:12.659Z - error: Error during processing request: http://localhost:5488/api/report details: Could not parse report template, aren't you missing content type? undefined

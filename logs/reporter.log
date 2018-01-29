@@ -259,3 +259,91 @@
 2018-01-29T03:39:50.527Z - info: Starting rendering request 14 (user: null) requestId=14
 2018-01-29T03:39:50.530Z - info: Rendering template {shortid:Syi75tzSG, recipe:phantom-pdf,engine:handlebars} requestId=14
 2018-01-29T03:39:59.667Z - info: Rendering request 14 finished in 9141 ms requestId=14
+2018-01-29T11:44:47.998Z - info: Initializing jsreport@1.9.2 in development mode using configuration file: jsreport.config.json
+2018-01-29T11:44:48.002Z - info: Setting process based strategy for rendering. Please visit http://jsreport.net/learn/configuration for information how to get more performance.
+2018-01-29T11:44:48.035Z - info: Searching for available extensions in C:\Users\mjlucero\Desktop\jsreport-server\
+2018-01-29T11:44:48.043Z - info: Extensions location cache not found, crawling directories
+2018-01-29T11:45:07.598Z - info: Found 30 extensions
+2018-01-29T11:45:07.624Z - info: Using extension import-export
+2018-01-29T11:45:11.336Z - info: Using extension tags
+2018-01-29T11:45:11.387Z - info: Using extension templates
+2018-01-29T11:45:11.425Z - info: Using extension jsrender
+2018-01-29T11:45:11.429Z - info: Using extension cli
+2018-01-29T11:45:11.432Z - info: Using extension handlebars
+2018-01-29T11:45:11.462Z - info: Using extension debug
+2018-01-29T11:45:11.510Z - info: Using extension express
+2018-01-29T11:45:12.779Z - info: Using extension fop-pdf
+2018-01-29T11:45:12.862Z - info: Using extension phantom-pdf
+2018-01-29T11:45:13.094Z - info: Using extension fs-store
+2018-01-29T11:45:17.150Z - info: Using extension authorization
+2018-01-29T11:45:17.176Z - info: Using extension images
+2018-01-29T11:45:17.242Z - info: Using extension child-templates
+2018-01-29T11:45:17.292Z - info: Using extension browser-client
+2018-01-29T11:45:17.314Z - info: Using extension licensing
+2018-01-29T11:45:17.672Z - info: Using extension data
+2018-01-29T11:45:17.680Z - info: Using extension text
+2018-01-29T11:45:17.694Z - info: Using extension reports
+2018-01-29T11:45:17.723Z - info: Using extension resources
+2018-01-29T11:45:17.743Z - info: Using extension base
+2018-01-29T11:45:17.762Z - info: Using extension studio
+2018-01-29T11:45:18.563Z - info: Using extension html-to-xlsx
+2018-01-29T11:45:19.478Z - info: Using extension scripts
+2018-01-29T11:45:19.482Z - info: Using extension assets
+2018-01-29T11:45:19.517Z - info: Using extension scheduling
+2018-01-29T11:45:20.113Z - info: Using extension xlsx
+2018-01-29T11:45:22.328Z - info: Using extension sample-template
+2018-01-29T11:45:22.362Z - info: Using extension public-templates
+2018-01-29T11:45:22.414Z - info: Initializing fs storage at C:\Users\mjlucero\Desktop\jsreport-server\data
+2018-01-29T11:45:22.707Z - info: Creating default express app.
+2018-01-29T11:45:23.508Z - info: jsreport server successfully started on http port: 5488
+2018-01-29T11:45:23.587Z - info: Verifying license key free
+2018-01-29T11:45:23.591Z - info: Using free license
+2018-01-29T11:45:23.597Z - info: reporter initialized
+2018-01-29T12:09:54.860Z - error: Error during processing request: http://localhost:5488/api/report details: Could not parse report template, aren't you missing content type? undefined
+2018-01-29T12:11:12.658Z - error: Error during processing request: http://localhost:5488/api/report details: Could not parse report template, aren't you missing content type? undefined
+2018-01-29T12:11:56.436Z - info: Starting rendering request 1 (user: null) requestId=1
+2018-01-29T12:11:56.438Z - info: Rendering template {shortid:Syi75tzSG, recipe:phantom-pdf,engine:handlebars} requestId=1
+2018-01-29T12:12:05.026Z - warn: Unable to load resource (#2URL:) timestamp=Mon Jan 29 2018 09:12:02 GMT-0300 (Hora estándar de Argentina), requestId=1
+2018-01-29T12:12:05.027Z - warn: Error code: 301. Description: Protocol "" is unknown timestamp=Mon Jan 29 2018 09:12:02 GMT-0300 (Hora estándar de Argentina), requestId=1
+2018-01-29T12:12:05.039Z - info: Rendering request 1 finished in 8604 ms requestId=1
+2018-01-29T12:14:27.630Z - info: Starting rendering request 2 (user: null) requestId=2
+2018-01-29T12:14:27.631Z - info: Rendering template {shortid:Syi75tzSG, recipe:phantom-pdf,engine:handlebars} requestId=2
+2018-01-29T12:14:28.550Z - warn: Unable to load resource (#2URL:) timestamp=Mon Jan 29 2018 09:14:28 GMT-0300 (Hora estándar de Argentina), requestId=2
+2018-01-29T12:14:28.550Z - warn: Error code: 301. Description: Protocol "" is unknown timestamp=Mon Jan 29 2018 09:14:28 GMT-0300 (Hora estándar de Argentina), requestId=2
+2018-01-29T12:14:28.554Z - info: Rendering request 2 finished in 924 ms requestId=2
+2018-01-29T12:15:29.013Z - info: Starting rendering request 3 (user: null) requestId=3
+2018-01-29T12:15:29.014Z - info: Rendering template {shortid:Syi75tzSG, recipe:phantom-pdf,engine:handlebars} requestId=3
+2018-01-29T12:15:29.734Z - warn: Unable to load resource (#2URL:) timestamp=Mon Jan 29 2018 09:15:29 GMT-0300 (Hora estándar de Argentina), requestId=3
+2018-01-29T12:15:29.734Z - warn: Error code: 301. Description: Protocol "" is unknown timestamp=Mon Jan 29 2018 09:15:29 GMT-0300 (Hora estándar de Argentina), requestId=3
+2018-01-29T12:15:29.737Z - info: Rendering request 3 finished in 726 ms requestId=3
+2018-01-29T12:17:31.368Z - info: Starting rendering request 4 (user: null) requestId=4
+2018-01-29T12:17:31.369Z - info: Rendering template {shortid:Syi75tzSG, recipe:phantom-pdf,engine:handlebars} requestId=4
+2018-01-29T12:17:32.138Z - warn: Unable to load resource (#2URL:) timestamp=Mon Jan 29 2018 09:17:32 GMT-0300 (Hora estándar de Argentina), requestId=4
+2018-01-29T12:17:32.138Z - warn: Error code: 301. Description: Protocol "" is unknown timestamp=Mon Jan 29 2018 09:17:32 GMT-0300 (Hora estándar de Argentina), requestId=4
+2018-01-29T12:17:32.141Z - info: Rendering request 4 finished in 774 ms requestId=4
+2018-01-29T12:20:36.219Z - info: Starting rendering request 5 (user: null) requestId=5
+2018-01-29T12:20:36.221Z - info: Rendering template {shortid:Syi75tzSG, recipe:phantom-pdf,engine:handlebars} requestId=5
+2018-01-29T12:20:36.950Z - warn: Unable to load resource (#2URL:http://localhost:3030/api/v15a6f0e312ceec904246fd5e9-223.png) timestamp=Mon Jan 29 2018 09:20:36 GMT-0300 (Hora estándar de Argentina), requestId=5
+2018-01-29T12:20:36.951Z - warn: Error code: 203. Description: Error downloading http://localhost:3030/api/v15a6f0e312ceec904246fd5e9-223.png - server replied: Not Found timestamp=Mon Jan 29 2018 09:20:36 GMT-0300 (Hora estándar de Argentina), requestId=5
+2018-01-29T12:20:36.955Z - info: Rendering request 5 finished in 737 ms requestId=5
+2018-01-29T12:20:43.370Z - info: Starting rendering request 6 (user: null) requestId=6
+2018-01-29T12:20:43.371Z - info: Rendering template {shortid:Syi75tzSG, recipe:phantom-pdf,engine:handlebars} requestId=6
+2018-01-29T12:20:44.085Z - info: Rendering request 6 finished in 715 ms requestId=6
+2018-01-29T12:21:50.791Z - info: Starting rendering request 7 (user: null) requestId=7
+2018-01-29T12:21:50.792Z - info: Rendering template {shortid:Syi75tzSG, recipe:phantom-pdf,engine:handlebars} requestId=7
+2018-01-29T12:21:51.504Z - info: Rendering request 7 finished in 714 ms requestId=7
+2018-01-29T12:22:12.445Z - info: Starting rendering request 8 (user: null) requestId=8
+2018-01-29T12:22:12.445Z - info: Rendering template {shortid:Syi75tzSG, recipe:phantom-pdf,engine:handlebars} requestId=8
+2018-01-29T12:22:13.144Z - info: Rendering request 8 finished in 700 ms requestId=8
+2018-01-29T12:22:18.905Z - info: Starting rendering request 9 (user: null) requestId=9
+2018-01-29T12:22:18.906Z - info: Rendering template {shortid:Syi75tzSG, recipe:phantom-pdf,engine:handlebars} requestId=9
+2018-01-29T12:22:19.591Z - info: Rendering request 9 finished in 686 ms requestId=9
+2018-01-29T12:22:26.358Z - info: Starting rendering request 10 (user: null) requestId=10
+2018-01-29T12:22:26.359Z - info: Rendering template {shortid:Syi75tzSG, recipe:phantom-pdf,engine:handlebars} requestId=10
+2018-01-29T12:22:27.067Z - info: Rendering request 10 finished in 708 ms requestId=10
+2018-01-29T12:22:54.069Z - info: Starting rendering request 11 (user: null) requestId=11
+2018-01-29T12:22:54.071Z - info: Rendering template {shortid:Syi75tzSG, recipe:phantom-pdf,engine:handlebars} requestId=11
+2018-01-29T12:22:54.807Z - info: Rendering request 11 finished in 738 ms requestId=11
+2018-01-29T12:40:20.558Z - info: Starting rendering request 12 (user: null) requestId=12
+2018-01-29T12:40:20.560Z - info: Rendering template {shortid:Syi75tzSG, recipe:phantom-pdf,engine:handlebars} requestId=12
+2018-01-29T12:40:22.114Z - info: Rendering request 12 finished in 1557 ms requestId=12
